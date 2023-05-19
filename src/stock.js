@@ -1,0 +1,64 @@
+const products =
+[
+    {
+        id: 1,
+        name: "Microfono Hyper Solocast",
+        tipo: "microfono",
+        desc: "Microfono de primer nivel",
+        price: 8900,
+        img: 'public/images/hyperxsolocast.jpg',
+        cantidad:1
+    },
+
+    {
+        id: 2,
+        name: "Monitor Viewsonic 24",
+        tipo: "monitor",
+        desc: "Monitor curvo",
+        price: 69500,
+        img: 'public/images/monitor.jpg',
+        cantidad:1
+    },
+
+    {
+        id: 3,
+        name: "Filtro Antipop",
+        tipo: "filtro",
+        desc: "FIltro antipop",
+        price: 1500,        
+        img: 'public/images/filtro.png',
+        cantidad:1
+    },
+
+    {
+        id: 4,
+        name: "Placa de video COLORFUL",
+        tipo: "placa de video",
+        desc: "Placa de video COLORFUL GT 1030",
+        price: 25000,       
+        img: 'public/images/colorful.jpg',
+        cantidad:1
+    },
+
+    {
+        id: 5,
+        name: "Placa de video Sapphire",
+        tipo: "placa de video",
+        desc: "Placa de video SAPPHIRE RX 6400",
+        price: 35000,
+        img: 'public/images/sapphire.jpg',
+        cantidad:1
+    },
+
+    {
+        id: 6,
+        name: "Soporte para microfono",
+        tipo: "soporte",
+        desc: "Soporte para microfono cob brazo",
+        price: 6400,
+        img: 'public/images/soporte.jpg',
+        cantidad:1
+    }
+];
+
+export{products};
